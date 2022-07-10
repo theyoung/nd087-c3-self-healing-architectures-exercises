@@ -13,6 +13,7 @@ spec:
       labels:
         app: ops-view
     spec:
+      serviceAccountName: ops-view
       containers:
         - name: ops-view
           image: hjacobs/kube-ops-view
